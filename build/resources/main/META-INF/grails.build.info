@@ -1,0 +1,6 @@
+#Sat, 11 Mar 2017 22:58:49 -0300
+
+info.app.version=0.1
+info.app.name=simple_to_do_list
+grails.env=development
+info.app.grailsVersion=3.2.4
