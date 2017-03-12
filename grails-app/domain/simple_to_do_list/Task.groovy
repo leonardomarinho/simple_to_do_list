@@ -9,7 +9,7 @@ class Task {
     Boolean done
     Boolean favorite
 
-    static hasMany ={subtaskList: Subtask}
+    static hasMany = [subtaskList: Subtask]
 
     static constraints = {
         title nullable: false, blank: false, unique: false

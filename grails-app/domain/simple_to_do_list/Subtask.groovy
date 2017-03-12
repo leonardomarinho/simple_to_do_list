@@ -4,7 +4,7 @@ class Subtask {
     String title
     Boolean done
 
-    static belongsTo = {task: Task}
+    static belongsTo = [task: Task]
 
     static constraints = {
         title nullable: false
